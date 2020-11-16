@@ -1,4 +1,4 @@
-package hex
+package stdlib
 
 import "testing"
 
