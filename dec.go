@@ -10,7 +10,7 @@ var (
 	Base62Chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 )
 
-func BHex2DEC(i *big.Int) string {
+func DECToBHex(i *big.Int) string {
 	var chars []rune
 	x := new(big.Int)
 	for {

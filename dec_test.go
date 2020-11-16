@@ -7,6 +7,6 @@ import (
 
 func Test_DEC(t *testing.T) {
 	a := big.NewInt(37)
-	t.Log(BHex2DEC(a))
+	t.Log(DECToBHex(a))
 
 }
