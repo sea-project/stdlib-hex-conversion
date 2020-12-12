@@ -7,7 +7,8 @@ import (
 var (
 	Big0        = big.NewInt(0)
 	Big36       = big.NewInt(36)
-	Base62Chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	//Base62Chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	Base62Chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 )
 
 func DECToBHex(i *big.Int) string {
